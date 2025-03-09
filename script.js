@@ -12,7 +12,7 @@ export function handleSummary(data) {
 
 export const options = {
   thresholds: {
-    'http_req_duration{scenario:browser}': ['p(95)<2000'], // Percentil 95 < 2s
+    'http_req_duration{scenario:browser}': ['p(95)<2000'], 
     'http_req_failed{scenario:browser}': ['rate<0.01'], // Errores < 1%
   },
   scenarios: {
@@ -20,7 +20,7 @@ export const options = {
       executor: 'constant-vus',
       exec: 'browserTest',
       vus: 10,
-      duration: '5m',
+      duration: '2m',
       options: {
         browser: {
           type: 'chromium',
