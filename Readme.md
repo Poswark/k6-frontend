@@ -1,4 +1,8 @@
-## PoC for validation frontend test
+## Testeando k6 para aplicaciones Frontend 
+
+
+Mas información: [Link Text](https://medium.com/@giovannyorjuel2/testeando-frontend-con-k6-8677ef57402e).
+
 
 
 
